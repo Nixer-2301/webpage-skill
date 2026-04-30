@@ -1,0 +1,18 @@
+# 忽略字体二进制文件（但保留 README）
+assets/fonts/**/*.ttf
+assets/fonts/**/*.otf
+assets/fonts/**/*.woff
+assets/fonts/**/*.woff2
+assets/fonts/**/*.zip
+assets/fonts/**/*.tar.gz
+
+# 忽略图片/视频（如果将来有人添加大文件）
+assets/picture/**/*.jpg
+assets/picture/**/*.png
+assets/picture/**/*.webp
+assets/video/**/*.mp4
+assets/video/**/*.mov
+
+# 忽略临时文件
+.DS_Store
+*.log

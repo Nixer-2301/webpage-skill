@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>壮观首屏 | 动态光晕 + 滚动动画</title>
+    <!-- 引入现代字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,800&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 壮观首屏 Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="glow-title">无限视界</h1>
+            <p class="hero-subtitle">边界，是用来打破的</p>
+            <a href="#about" class="cta-button">探索旅程 <span>→</span></a>
+        </div>
+        <!-- 装饰性滚动提示 -->
+        <div class="scroll-hint">
+            <span>滚动探索</span>
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- 下方内容区：滚动后出现，淡入动画 -->
+    <section class="content-section" id="about">
+        <div class="container">
+            <h2 class="section-title reveal">关于我们</h2>
+            <p class="section-subtitle reveal">用代码构建视觉诗篇</p>
+            <div class="card-grid">
+                <div class="card reveal">
+                    <div class="card-icon">✨</div>
+                    <h3>动态光影</h3>
+                    <p>鼠标移动时，首屏光晕跟随，营造沉浸式交互体验。</p>
+                </div>
+                <div class="card reveal">
+                    <div class="card-icon">🎨</div>
+                    <h3>大胆渐变</h3>
+                    <p>非传统色彩组合，彰显个性与高级感。</p>
+                </div>
+                <div class="card reveal">
+                    <div class="card-icon">⚡</div>
+                    <h3>丝滑滚动</h3>
+                    <p>滚动触发元素淡入，节奏舒适，叙事感强。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer reveal">
+        <p>© 2025 壮观设计 | 灵感源自无限创意</p>
+    </footer>
+
+    <!-- 引入脚本 -->
+    <script src="script.js"></script>
+</body>
+</html> 
