@@ -1,6 +1,6 @@
 ---
 name: webcreator
-description: 生成结构清晰、美观大方的HTML/CSS/JS网页文件。自动在工作区创建web目录、按用户描述生成项目文件夹、版本化存储（如v1.0/）。支持根据用户技术水平调整代码注释详细度（内容不变）。当用户输入[/create-wp][/create-webpage][/webcreate]或需要迭代改进网页时使用。
+description: 生成结构清晰、美观大方的HTML/CSS/JS网页文件。自动在工作区创建web目录、按用户描述生成项目文件夹、版本化存储（如v1.0/）。支持根据用户技术水平调整代码注释详细度（内容不变）。当用户输入[/create-wp][/create-webpage][/webcreate]或需要迭代改进网页时再或者用户提出了创建页面的需求（例如“帮我做一个咖啡馆的宣传页面”）时使用。
 license: MIT
 allowed-tools: Read, Write, Bash(mkdir:*), Bash(cp:*)
 metadata:
